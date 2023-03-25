@@ -18,7 +18,6 @@ const loop = setInterval(() => {
     pipe.style.animation = "none";
     mario.style.animation = "none";
 
-    mario.src = "../images/morreu.png";
     pipe.style.left = `${pipePostion}px`;
 
     mario.style.bottom = `${marioPostion}px`;
