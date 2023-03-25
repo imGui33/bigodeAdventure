@@ -23,7 +23,7 @@ const loop = setInterval(() => {
 
     mario.style.bottom = `${marioPostion}px`;
 
-    const audio = new Audio("../audios/morreu.ogg");
+    const audio = new Audio("https://github.com/imGui33/bigodeAdventure/blob/main/audios/morreu.ogg");
     audio.play();
 
     clearInterval(loop);
