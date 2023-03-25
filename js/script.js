@@ -18,6 +18,7 @@ const loop = setInterval(() => {
     pipe.style.animation = "none";
     mario.style.animation = "none";
 
+    mario.src = "../images/morreu.png";
     pipe.style.left = `${pipePostion}px`;
 
     mario.style.bottom = `${marioPostion}px`;
@@ -30,3 +31,6 @@ const loop = setInterval(() => {
 }, 10);
 
 document.addEventListener("keydown", jump);
+
+// adiciona evento de toque para dispositivos móveis
+document.addEventListener("touchstart", jump);
